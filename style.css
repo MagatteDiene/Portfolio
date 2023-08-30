@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+html {
+    scroll-behavior: smooth;
+    background-image: url(../img/dark-geometric-background-with-copy-space.jpg);
+  }
+.Home{
+    background-image: url(../img/dark-geometric-background-with-copy-space.jpg);
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
+.header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 20px 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    
+}
+.logo{
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.navbar a{
+    font-size: 18px;
+    font-weight: 450;
+    text-decoration: none;
+    margin-left: 35px;
+}
+.accueil{
+    color:deeppink;
+}
+.navbar a:hover{
+    color: white;
+    transition:background-color 0.2s ease-in-out;
+    background-color: deeppink;
+    border-radius: 6px;
+} 
+
+.contenu{
+    position: relative;
+    left: 400px;
+    top: 20px;
+}
+.contenu h2{
+    color:deeppink;
+    -webkit-text-stroke: .5px black;
+    text-align: right;
+    position: relative;
+    left: 30px;
+}
+.contenu p{
+    font-size:small;
+    text-align: left;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-family: 'VT323', monospace;
+}
+.image{
+    height: 200px;
+    width: 180px;
+    position: relative;
+    left: 200px;
+    top: 20px;
+}
+.image img{
+    height: 140%;
+    width: 140%;
+    position: relative;
+    right: 10px;
+    bottom: 20px;
+}
+
+.social_media{
+    height: 10%;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 250px;
+    top: 30px;
+}
+.social_media i{
+    color: deeppink;
+}
+.social_media a{
+    background: transparent;
+    font-size: 20px;
+    transition: transform 0.3s;
+
+}
+.social_media a:hover{
+    background: white;
+    border-radius: 35%;
+    transition: .5 ease;
+    transform: scale(1.2);
+}
+.btn{
+    background-color: deeppink;
+    border-radius: 20px;
+    position: relative;
+    top: 50px;
+    padding: 10px 20px;
+    font-weight: 600;
+    text-decoration: none;
+    box-shadow: 0 0 10px deeppink;
+}
+.About{
+    background-image: url(../img/dark-geometric-background-with-copy-space.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 645px; 
+    padding: 20px; 
+    margin: 0;
+}
+.About h2{
+    font-weight: 700;
+    font-size: xx-large;
+    text-align: center;
+    background-color: transparent;
+    width:max-content;
+    position: relative;
+    left: 500px;
+    top: 100px;
+   
+}
+.aboutp1 i{
+    color: deeppink;
+}
+.aboutp2 i{
+    color: deeppink;
+}
+.aboutp3 i{
+    color: deeppink;
+}
+.About a{
+    position: relative;
+    top: -260px;
+    left: 1130px;
+    font-size:xxx-large;
+    
+}
+.About a:hover{
+    background-color: deeppink;
+    transition: .5s ease;
+    border-radius: 80px;
+
+}
+.container1{
+    
+    height: 150px;
+    width: 25%;
+    position: relative;
+    left: 60px;
+    top: 150px; 
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.3s;
+}
+.container1:hover{
+    transform: scale(1.1);
+    cursor:pointer
+}
+.container1 p{
+    position: relative;
+    top: 20px;
+    font-family: 'VT323', monospace;
+    font-size: small;
+}
+.container1 i{
+    font-size: xxx-large;
+    color: deeppink;
+}
+
+.container2{
+    
+    height: 150px;
+    width: 25%;;
+    position: relative;
+    left:420px;
+    top: 0px; 
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.3s;
+}
+.container2:hover{
+    transform: scale(1.1);
+    cursor:pointer
+}
+.container2 p{
+    position: relative;
+    top: 30px;
+    font-family: 'VT323', monospace;
+    font-size: small;
+}
+.container2 i{
+    font-size: xxx-large;
+    color: deeppink;
+}
+.container3{
+   
+    height: 150px;
+    width: 25%;
+    position: relative;
+    left: 810px;
+    top: -150px; 
+    text-align: center;
+    transition: transform 0.3s;
+}
+.container3:hover{
+    cursor:pointer;
+    transform: scale(1.1);
+}
+.container3 p{
+    position: relative;
+    top: 30px;
+    font-family: 'VT323', monospace;
+    font-size: small;
+}
+.container3 i{
+    font-size: xxx-large;
+    color: deeppink;
+}
+.container4{
+   
+    height: 150px;
+    width: 25%;
+    position: relative;
+    left: 60px;
+    top: -80px; 
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.3s;
+}
+.container4:hover{
+    cursor:pointer;
+    transform: scale(1.1);
+}
+.container4 p{
+    position: relative;
+    top: 30px;
+    font-family: 'VT323', monospace;
+    font-size: small;
+}
+.container4 i{
+    font-size: xxx-large;
+    color: deeppink;
+}.container5{
+    
+    height: 150px;
+    width: 25%;;
+    position: relative;
+    left:420px;
+    top: -230px;
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.3s;
+}
+.container5:hover{
+    transform: scale(1.1);
+    cursor:pointer;
+}
+.container5 p{
+    position: relative;
+    top: 30px;
+    font-family: 'VT323', monospace;
+    font-size: small;
+}
+.container5 i{
+    font-size: xxx-large;
+    color: deeppink;
+}
+.container6{
+    
+    height: 150px;
+    width: 25%;
+    position: relative;
+    left: 810px;
+    top: -380px; 
+    text-align: center;
+    transition: transform 0.3s;
+}
+.container6:hover{
+    transform: scale(1.1);
+    cursor:pointer;
+}
+.container6 p{
+    position: relative;
+    top: 30px;
+    font-family: 'VT323', monospace;
+    font-size: small;
+}
+.container6 i{
+    font-size: xxx-large;
+    color: deeppink;
+}
+.skills{
+    background-image: url(../img/dark-geometric-background-with-copy-space.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 645px; 
+    padding: 20px; 
+    margin: 0;
+}
+.skills h2{
+    font-weight: 700;
+    font-size: xx-large;
+    text-align: center;
+    background-color: transparent;
+    width:max-content;
+    position: relative;
+    left: 500px;
+    top: 100px;
+}
+.skills a{
+    position: relative;
+    top: -400px;
+    left: 1130px;
+    font-size:xxx-large;
+    
+}
+.skills a:hover{
+    background-color: deeppink;
+    transition: .5s ease;
+    border-radius: 80px;
+
+}
+.contact{
+    background-image: url(../img/dark-geometric-background-with-copy-space.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 635px; 
+    padding: 20px; 
+    margin: 0;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: grid;
+    row-gap: 1rem;
+    width: max-content;
+    height: max-content;
+    position: relative;
+    left: 400px;
+    bottom: 400px;
+}
+form input,
+textarea{
+    width: 150%;
+    padding: 1rem;
+    font-size: medium;
+    color: white;
+    background-color: transparent;
+    border-radius: 1rem;
+    resize: none;
+    position: relative;
+    top: 140px;
+    left: 200px;
+}
+.btn2{
+    background-color: deeppink;
+    border-radius: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    box-shadow: 0 0 10px deeppink;
+    border: transparent;
+    cursor: pointer;
+}
+.contact h2{
+    font-weight: 700;
+    font-size: xx-large;
+    text-align: center;
+    background-color: transparent;
+    width:max-content;
+    position: relative;
+    left: 500px;
+    top: 100px;
+}
+
+
+.aboutimg{
+    height: 400px;
+    width: 400px;
+    position: relative;
+    top: 150px;
+    left: 40px;
+}
+.aboutimg img{
+    position: relative;
+    bottom: 100px;
+    right: 250px;
+}
+.aboutp1{
+
+    position: relative;
+    height: 120px;
+    width: 55%;
+    left: 500px;
+    bottom: 250px;
+}
+.about p{
+    font-family: 'VT323', monospace;
+}
+.aboutp2{
+
+    position: relative;
+    height: 120px;
+    width: 55%;
+    left: 500px;
+    bottom: 250px;
+}
+.aboutp3{
+
+    position: relative;
+    height: 120px;
+    width: 55%;
+    left: 500px;
+    bottom: 250px;
+}
+.contactimg{
+    height: max-content;
+    width: max-content;
+    position: relative;
+    top: 150px;
+    left: 130px;
+}
+
+footer h2{
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    color:white;
+    font-size:xx-small;
+    width: max-content;
+    height: max-content;
+}
